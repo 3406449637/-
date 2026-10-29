@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         雨课堂视频串行队列（2 倍速）+ 自动讨论 + 作业助手
+// @name         雨课堂刷课助手（视频队列 + 自动讨论 + 作业）
 // @namespace    https://changjiang.yuketang.cn/
 // @version      2.1.0
-// @description  读取雨课堂课程中未完成的视频，按顺序在独立标签页中逐个播放（2 倍速）；支持读取未发言的讨论并调用 AI 生成答案；支持读取未完成作业、自动解码题目、由 AI 作答并等待人工审核后再提交。
+// @description  雨课堂刷课助手：视频 2 倍速串行队列、自动讨论、AI 作业助手；支持 OpenAI/Responses/Anthropic/Gemini 等接口，作业提交前双次作答一致性检查与人工审核。
 // @author       ZCode
 // @match        https://changjiang.yuketang.cn/pro/lms/*/studycontent*
 // @match        https://changjiang.yuketang.cn/v2/web/studentLog*

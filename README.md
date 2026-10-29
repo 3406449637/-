@@ -1,6 +1,12 @@
-# 雨课堂视频串行队列（2 倍速）+ 自动讨论 + 作业助手
+# 雨课堂刷课助手：视频 2 倍速队列 + 自动讨论 + AI 作业
 
-一个 Tampermonkey / Violentmonkey 用户脚本：读取雨课堂课程中**尚未完成**的视频，按课程顺序生成队列，在独立视频标签页中逐个以 **2 倍速**播放，自动检查完成情况并进入下一条。
+一个 Tampermonkey / Violentmonkey 用户脚本：读取雨课堂（changjiang.yuketang.cn / 学堂在线）课程中**尚未完成**的视频，按课程顺序生成队列，在独立视频标签页中逐个以 **2 倍速**播放，自动检查完成情况并进入下一条。
+
+> **搜索关键词**：雨课堂刷课、雨课堂脚本、学堂在线刷课、雨课堂视频队列、雨课堂自动讨论、雨课堂作业助手、雨课堂自动答题、AI 答题、Tampermonkey 用户脚本、Yuketang userscript、Yuketang helper、Yuketang automation、changjiang.yuketang.cn。
+
+## English summary
+
+A Tampermonkey / Violentmonkey userscript for Yuketang (changjiang.yuketang.cn, XuetangX): builds a queue of unfinished course videos and plays them serially in a dedicated tab at 2x speed; auto-completes discussions with your own AI API; and solves homework from rendered question screenshots using an AI vision model. It supports model-list fetching, OpenAI / OpenAI Responses / Anthropic / Gemini formats, double-answer consistency checks, and requires manual review before every homework submission.
 
 同时支持**自动完成讨论**：读取未发言的讨论，在标签页中打开，调用你配置的 AI 接口生成可直接提交的答案；默认先在面板中展示题目和答案等你审核，确认后才提交，也可切换为全自动提交。
 
