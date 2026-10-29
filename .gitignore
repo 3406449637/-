@@ -13,3 +13,6 @@ node_modules/
 # Temporary files
 *.tmp
 *.bak
+
+# Tooling session data
+.zcode/
